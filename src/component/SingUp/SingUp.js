@@ -10,6 +10,7 @@ const SingUP = () => {
     const [confirmPassword, setconfirmPassword] = useState('');
     const [error, setError] = useState('');
     const navigate = useNavigate();
+
     const [createUserWithEmailAndPassword, user] = useCreateUserWithEmailAndPassword(auth)
 
 
